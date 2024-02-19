@@ -1,5 +1,5 @@
 @echo off
-echo 正在停止 Delivery Optimization 服务...
-net stop dosvc
-echo Delivery Optimization 服务已停止，更多实用工具请前往www.fcpig.com
-pause
+echo 姝ｅ湪鍋滄 Delivery Optimization 鏈嶅姟...
+net stop dosvc >nul 2>&1
+echo Delivery Optimization 鏈嶅姟宸插仠姝紝鏇村瀹炵敤宸ュ叿璇峰墠寰�www.fcpig.com
+ping -n 2 127.0.0.1 >nul
